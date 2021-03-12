@@ -1,0 +1,14 @@
+.all {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #070707;
+    white-space: normal;
+    border-radius: 10px;
+    background: rgb(241, 241, 241);
+    margin: 0 auto;
+    max-width: 250px;
+    padding-left: 0.5rem;
+     
+
+}

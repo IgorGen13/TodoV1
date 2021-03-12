@@ -1,0 +1,56 @@
+.complete {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: rgb(241, 241, 241);
+    font-size: 1.25rem;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0.5rem;
+    transition: all 1s ease;
+    width: 500px;
+    white-space: normal;
+    border-radius: 10px;
+    
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+  }
+
+.todo-text {
+  margin: 20px 10px 10px 5px;
+    padding: 10px 10px 10px 5px;
+} 
+
+.todo-time {
+  color: rgb(88, 85, 85);
+  padding: 0rem 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 550;
+  flex-grow: 1;
+  text-align: right;
+
+}
+
+.todo-button {
+  background: #db3737;
+  color: white;
+  border: none;
+  margin: 0.3rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 10px;
+  outline: 0;
+  outline-offset: 0;
+  
+  
+}
+
